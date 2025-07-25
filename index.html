@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduConnect - Student & Tutor Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <div class="logo">
+                <span>Edu</span>Connect
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#features">Features</a>
+                <a href="#tutors">Tutors</a>
+                <a href="#projects">Projects</a>
+                <a href="#testimonials">Testimonials</a>
+            </div>
+            <div class="auth-buttons">
+                <button class="login-btn">Login</button>
+                <button class="signup-btn">Sign Up</button>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Connect with Expert Tutors for Your Projects</h1>
+                <p>Find the perfect tutor to help you excel in your academic projects and assignments</p>
+                <div class="hero-buttons">
+                    <button class="primary-btn">Find a Tutor</button>
+                    <button class="secondary-btn">Become a Tutor</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Students collaborating">
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features">
+            <h2 class="section-title">Why Choose EduConnect?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Expert Tutors</h3>
+                    <p>Connect with qualified tutors who specialize in your subject area</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>Project Collaboration</h3>
+                    <p>Work together on projects with real-time feedback and guidance</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3>Flexible Scheduling</h3>
+                    <p>Book sessions that fit your schedule with our easy-to-use calendar</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Instant Communication</h3>
+                    <p>Chat with tutors in real-time to get quick answers to your questions</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tutors Section -->
+        <section id="tutors" class="tutors">
+            <h2 class="section-title">Meet Our Top Tutors</h2>
+            <div class="tutors-slider">
+                <div class="tutor-card">
+                    <div class="tutor-image">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Tutor">
+                    </div>
+                    <h3>Dr. James Wilson</h3>
+                    <p class="tutor-subject">Computer Science</p>
+                    <div class="tutor-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>4.8</span>
+                    </div>
+                    <button class="view-profile-btn">View Profile</button>
+                </div>
+                <div class="tutor-card">
+                    <div class="tutor-image">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Tutor">
+                    </div>
+                    <h3>Prof. Sarah Johnson</h3>
+                    <p class="tutor-subject">Mathematics</p>
+                    <div class="tutor-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>5.0</span>
+                    </div>
+                    <button class="view-profile-btn">View Profile</button>
+                </div>
+                <div class="tutor-card">
+                    <div class="tutor-image">
+                        <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Tutor">
+                    </div>
+                    <h3>Dr. Michael Chen</h3>
+                    <p class="tutor-subject">Physics</p>
+                    <div class="tutor-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>4.0</span>
+                    </div>
+                    <button class="view-profile-btn">View Profile</button>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Project">
+                    </div>
+                    <div class="project-info">
+                        <h3>Machine Learning Research</h3>
+                        <p>A collaborative project on implementing neural networks for image recognition</p>
+                        <div class="project-tags">
+                            <span>AI</span>
+                            <span>Python</span>
+                            <span>Data Science</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Project">
+                    </div>
+                    <div class="project-info">
+                        <h3>Web Development Portfolio</h3>
+                        <p>Building responsive websites with modern frameworks and best practices</p>
+                        <div class="project-tags">
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1507413245164-6160d8298b31?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Project">
+                    </div>
+                    <div class="project-info">
+                        <h3>Renewable Energy Solutions</h3>
+                        <p>Designing sustainable energy systems for residential applications</p>
+                        <div class="project-tags">
+                            <span>Engineering</span>
+                            <span>Sustainability</span>
+                            <span>Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials">
+            <h2 class="section-title">What Our Users Say</h2>
+            <div class="testimonials-container">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"EduConnect helped me find the perfect tutor for my final year project. The collaboration tools made working together seamless, even remotely."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Student">
+                        <div>
+                            <h4>Emma Thompson</h4>
+                            <p>Computer Science Student</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"As a tutor on EduConnect, I've been able to connect with students who are truly passionate about learning. The platform makes scheduling and payments hassle-free."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/41.jpg" alt="Tutor">
+                        <div>
+                            <h4>David Rodriguez</h4>
+                            <p>Mathematics Tutor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta">
+            <div class="cta-content">
+                <h2>Ready to Excel in Your Projects?</h2>
+                <p>Join thousands of students and tutors on EduConnect today</p>
+                <button class="cta-btn">Get Started Now</button>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo">
+                        <span>Edu</span>Connect
+                    </div>
+                    <p>Connecting students with expert tutors for project success</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Platform</h4>
+                        <a href="#">How it Works</a>
+                        <a href="#">Browse Tutors</a>
+                        <a href="#">Project Collaboration</a>
+                        <a href="#">Pricing</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Company</h4>
+                        <a href="#">About Us</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Press</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Resources</h4>
+                        <a href="#">Help Center</a>
+                        <a href="#">Community</a>
+                        <a href="#">Tutorials</a>
+                        <a href="#">Webinars</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Legal</h4>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 EduConnect. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal" id="login-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Login to Your Account</h2>
+            <form class="login-form">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required>
+                </div>
+                <div class="form-options">
+                    <div class="remember-me">
+                        <input type="checkbox" id="remember">
+                        <label for="remember">Remember me</label>
+                    </div>
+                    <a href="#" class="forgot-password">Forgot password?</a>
+                </div>
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+            <div class="modal-footer">
+                <p>Don't have an account? <a href="#" class="switch-modal" data-modal="signup-modal">Sign up</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div class="modal" id="signup-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Create Your Account</h2>
+            <div class="user-type-toggle">
+                <button class="user-type active" data-type="student">I'm a Student</button>
+                <button class="user-type" data-type="tutor">I'm a Tutor</button>
+            </div>
+            <form class="signup-form">
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" required>
+                </div>
+                <div class="form-group">
+                    <label for="signup-email">Email</label>
+                    <input type="email" id="signup-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="signup-password">Password</label>
+                    <input type="password" id="signup-password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" required>
+                </div>
+                <div class="form-options">
+                    <div class="terms-agreement">
+                        <input type="checkbox" id="terms" required>
+                        <label for="terms">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+                    </div>
+                </div>
+                <button type="submit" class="submit-btn">Create Account</button>
+            </form>
+            <div class="modal-footer">
+                <p>Already have an account? <a href="#" class="switch-modal" data-modal="login-modal">Login</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
